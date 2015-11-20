@@ -443,13 +443,11 @@ header {
 	background-color:#252839;
 	height: 100%;
 	padding-top: 12%;
-
 }
 
 .jumbotron {
 	margin:0;
   background-color:#252839;
-
 }
 
 .jumbotron img {
@@ -460,9 +458,9 @@ header {
 
 /*Changes*/
 
-.social-wrapper {
+/*.social-wrapper {
 	margin-bottom: 12%;
-}
+}*/
 /*---------*/
 .social-wrapper h2 {
 	display:inline;
