@@ -372,8 +372,7 @@ h4 {
 
 .navbar-default {
 	margin:0;
-	/*background-color:#2C3E50;*/
-		background-color:#c9c9c9;
+		background-color: black;
 	border:none;
 	border-radius:0;
 	height:78px;
@@ -385,7 +384,7 @@ h4 {
 .navbar-default .navbar-brand {
 	font-family:'Montserrat';
 	padding:23px 0 0 25px;
-	color:#16A085;
+	color: white;
 	font-size:24px;
 	transition-duration:0.7s;
 }
@@ -424,7 +423,7 @@ h4 {
 
 .navbar-collapse {
 	margin:0;
-	background-color:#c9c9c9;
+	background-color:black;
 	border:none;
 	border-radius:0;
 	padding-top:3px;
@@ -440,14 +439,14 @@ h4 {
 
 header {
 	text-align:center;
-	background-color:#252839;
+	background-color: black;
 	height: 100%;
 	padding-top: 12%;
 }
 
 .jumbotron {
 	margin:0;
-  background-color:#252839;
+  background-color: black;
 }
 
 .jumbotron img {
@@ -1257,7 +1256,7 @@ blockquote footer {
 ------------------------------*/
 
 #footer {
-	background-color:#252839;
+	background-color: black;
 	text-align:center;
 	padding:40px 0;
 	color:#FFFFFF;
