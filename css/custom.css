@@ -249,20 +249,25 @@ h4 {
 }
 
 .content-first {
-	background-color:#c9c9c9;
+	background-color: white;
 	padding:80px 0;
-	color:#FFFFFF;
-	border-top:8px solid rgba(0,0,0,0.1);
+	color: black;
+	border-top:2px solid rgba(0,0,0,0.1);
 	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
 }
-
+.content-first h2 {
+	color: black;
+}
 .content-second {
-	background-color:#89bdd3;
+	background-color: white;
 	padding:80px 0;
-	color:#FFFFFF;
-	border-top:8px solid rgba(0,0,0,0.1);
+	color: black;
+	border-top:2px solid rgba(0,0,0,0.1);
 	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
 	text-align:center;
+}
+.content-second h2 {
+	color: black;
 }
 
 .scrollpoint {
@@ -439,14 +444,17 @@ h4 {
 
 header {
 	text-align:center;
-	background-color: black;
+	/*background-color: #159957;*/
+  background-image: linear-gradient(120deg, grey, steelblue);
 	height: 100%;
 	padding-top: 12%;
 }
 
 .jumbotron {
 	margin:0;
-  background-color: black;
+  /*background-color: black;*/
+	/*background-color: #159957;*/
+ background-image: linear-gradient(120deg, grey, steelblue);
 }
 
 .jumbotron img {
@@ -475,7 +483,7 @@ header {
 .brands > li > a {
 	background-color:transparent;
 	color:#FFFFFF;
-	border-top:3px solid #16A085;
+	/*border-top:3px solid #16A085;*/
 	transition-duration:0.2s;
 }
 
@@ -505,12 +513,15 @@ header {
 ------------------------------*/
 #about {
 	padding-bottom:20px;
+	color: black;
+	background-color: white;
 }
 
 #about h3 {
 	border-bottom:3px solid #FFFFFF;
 	padding-bottom:5px;
 	max-width:150px;
+	color: black;
 }
 
 
@@ -528,10 +539,10 @@ header {
 
 .tweets {
 	margin-top:35px;
-	background-color:#89bdd3;
+	background-color: white;
 	border-radius:6px;
 	padding:7px 0;
-	color:#FFFFFF;
+	color:black;
 	height:135px;
 }
 
@@ -589,7 +600,7 @@ header {
 
 #skills {
 	display:none;
-	background-color:#2F4254;
+	background-color: white;
 	padding:30px 0;
 }
 
@@ -618,7 +629,7 @@ header {
 }
 
 .timeline {
-    border-left:3px solid #FFFFFF;
+    border-left:3px solid black;
     margin-left:110px;
     padding-left:0px;
 }
@@ -840,7 +851,7 @@ blockquote footer {
 	top: 0;
 	left: 0;
 	padding: 15px;
-	background: #252839;
+background-image: linear-gradient(120deg, grey, steelblue);
 	color: #ed4e6e;
 }
 
@@ -1159,7 +1170,7 @@ blockquote footer {
 #contact {
 	color:#333333;
 	text-align:center;
-	background-color: #9ad3de;
+	background-color: white;
 }
 
 #contact .contact-alert .alert {
@@ -1256,7 +1267,7 @@ blockquote footer {
 ------------------------------*/
 
 #footer {
-	background-color: black;
+	background-color: white;
 	text-align:center;
 	padding:40px 0;
 	color:#FFFFFF;
