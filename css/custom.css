@@ -52,7 +52,7 @@
 }
 
 #blog-header a{
-	color:#16A085;
+	color:crimson;
 	font-size:20px;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .blog-about h3 {
-	color:#16A085;
+	color:crimson;
 }
 
 .archive span{
@@ -117,7 +117,7 @@
 }
 
 .blog-about-xs h3 {
-	color:#16A085;
+	color:crimson;
 }*/
 
 /*------------------------------
@@ -161,7 +161,7 @@
 .comment h4 {
 	font-size: 22px;
 	margin:0 0 10px;
-	color:#16A085;
+	color:crimson;
 }
 
 .comment h4 small {
@@ -235,6 +235,7 @@ h2 {
 	color:#FFFFFF;
 	font-family:'Montserrat';
 	font-size:56px;
+	text-transform: uppercase;;
 }
 
 h3 {
@@ -313,7 +314,7 @@ h4 {
 .btn:hover,
 .btn:focus {
 	font-family:'Montserrat';
-	border-bottom:4px solid #FFFFFF;
+	border-bottom:1px solid #FFFFFF;
 	color:#FFFFFF;
 	transition-duration:0.4s;
 }
@@ -343,15 +344,15 @@ h4 {
 
 .btn-reference {
 	border:1px solid #FFFFFF;
-	border-bottom:3px solid #FFFFFF;
+	border-bottom:1px solid #FFFFFF;
 	background-color:transparent;
 }
 
 .btn-reference:hover,
 .btn-reference.btn-active {
-	border:1px solid #16A085;
-	border-bottom:3px solid #16A085;
-	color:#16A085;
+	border:1px solid crimson;
+	border-bottom:3px solid crimson;
+	color:crimson;
 }
 
 /*------------------------------
@@ -364,7 +365,7 @@ h4 {
 }
 
 .alert-success {
-	background-color:#16A085;
+	background-color:crimson;
 }
 
 .alert-danger {
@@ -422,8 +423,8 @@ h4 {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color:#16A085;
-	border-left:4px solid #16A085;
+	color:crimson;
+	border-left:4px solid crimson;
 }
 
 .navbar-collapse {
@@ -448,6 +449,7 @@ header {
   background-image: linear-gradient(120deg, grey, steelblue);
 	height: 100%;
 	padding-top: 12%;
+
 }
 
 .jumbotron {
@@ -472,7 +474,7 @@ header {
 .social-wrapper h2 {
 	display:inline;
 	padding:0 20px 0 20px;
-	font-size:50px;
+	font-size:42px;
 }
 
 
@@ -483,12 +485,12 @@ header {
 .brands > li > a {
 	background-color:transparent;
 	color:#FFFFFF;
-	/*border-top:3px solid #16A085;*/
+	/*border-top:3px solid crimson;*/
 	transition-duration:0.2s;
 }
 
 .brands > li > a:hover {
-	color:#16A085;
+	color:crimson;
 	border-top:3px solid #2F4254;
 }
 
@@ -497,7 +499,7 @@ header {
 }
 
 #slideshow i {
-	color:#16A085;
+	color:crimson;
 }
 
 .carousel-inner {
@@ -1117,7 +1119,7 @@ background-image: linear-gradient(120deg, grey, steelblue);
 ------------------------------*/
 
 #testimonials {
-	background-color:#16A085;
+	background-color:crimson;
 }
 
 #testimonials .media {
@@ -1229,7 +1231,7 @@ background-image: linear-gradient(120deg, grey, steelblue);
 }
 
 #contact .contact-info p {
-	border-bottom:2px dashed #16A085;
+	border-bottom:2px dashed crimson;
 	margin:0;
 	padding:12px 0;
 	font-weight:bold;
@@ -1277,7 +1279,7 @@ background-image: linear-gradient(120deg, grey, steelblue);
 }
 
 #footer .brands li a {
-	color:#16A085;
+	color:crimson;
 
 	border-radius:50px;
 	border:0;
@@ -1499,7 +1501,7 @@ background-image: linear-gradient(120deg, grey, steelblue);
 
 	.navbar-default .navbar-toggle {
 		margin:0;
-		background-color:#16A085;
+		background-color:crimson;
 		border:0;
 		border-radius:0;
 		padding:3px 0 0;
@@ -1511,7 +1513,7 @@ background-image: linear-gradient(120deg, grey, steelblue);
 
 	.navbar-default .navbar-toggle:hover,
 	.navbar-default .navbar-toggle:focus {
-		background-color: #16A085;
+		background-color: crimson;
 	}
 
 	.navbar-brand{
